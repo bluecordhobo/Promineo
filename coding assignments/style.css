@@ -1,55 +1,63 @@
-/*here i have started my external CSS code and have it linked to my individual html pages. */
+/*here i have started my external CSS code and have it linked to 
+my individual html pages. */
 
-/*setting my background color to a dark green on all 3 html pages. */
+/*I Sset my background color to a dark green on all 3 html pages. */
 body {background-color:rgb(32, 47, 32);
-        }
+}
 
-/*here i've given the page links inside my div a border with a ligher green background color to help it stand out, and I've aligned it within
-the center of each page. */
+/*here i've given the page links inside my div a border with a ligher 
+green background color to help it stand out, aligning the text to 
+the center of each page.I moved all my link divs to the bottom 
+of thepage just trying out different looks */
 div {background-color: rgb(128, 156, 116);
-    border-color: black;
-    border-radius: 2%;
-    border-width: 5px 5px;
-    text-align:center;
-    }
+border-color: black;
+border-radius: 2%;
+border-width: 5px 5px;
+text-align:center;
+}
 
-/*here I've given my h1 headers a dark green shadow effect, changed my font style to oblique, aligned the text to the center of the page
-and added an underline text decoration just to give it a try. */
+/*here I've given my h1 headers a dark green shadow effect, changed 
+my font style to oblique, aligned the text to the center of the 
+pageand added an underline text decoration just to give it a try. */
 h1 {background-color: rgb(128, 156, 116);
-    text-shadow: rgb(32, 47, 32) 1px 2px;
-    font-style:oblique;
-    text-align:center;
-    text-decoration:underline;  
-    } 
-        
-/*Here I've used a class id for each image to float them individually */
-    .img1 {float:left;}
-    .img2 {float:right;}
-    .img3 {float:left;}
+text-shadow: rgb(32, 47, 32) 1px 2px;
+font-style:oblique;
+text-align:center;
+text-decoration:underline;  
+} 
 
-/*I've given my table element a background color, adjusted the width of the table and aligned it center. */
+/*Here I've used a class selector for each image to float them 
+individually around the page */
+.img1 {float:left;}
+.img2 {float:right;}
+.img3 {float:left;}
+
+/*I've given my table element a background color, adjusted the 
+width of the table and aligned it center. */
 table {background-color:rgb(56, 41, 41);
-    width:75%;
-    margin:auto;
-    }
+width:75%;
+margin:auto;
+}
 
 /*Giving my form inputs some background color.*/
 input {background-color:rgb(128,156,116);}
-        
+
 /*Aligning my th and td to the center of the page. */
 th, td {text-align:center;}
 
 /*given my h4 elements an italic font. */
 h4 {font-style:italic;}
-            
-/*I've changed the font and font size here on the text within my unorganized list on my about html page. 
- I've also changed the list style type from disks to circles. */
+    
+/*I've changed the font and font size here on the text within my
+unorganized list on my about html page. I've also changed the 
+list style type from disks to circles. */
 ul {font-style:italic;
-    font-size:x-large;
-    list-style-type:circle;
-    }
+font-size:x-large;
+list-style-type:circle;
+}
 
- /* Here I have also changed the font and font size of my paragraph text. */
-    p {font-style:italic;
-    font-size:x-large;
-    }
+/* Here I have also changed the font and font size of my 
+paragraph text. */
+p {font-style:italic;
+font-size:x-large;
+}
